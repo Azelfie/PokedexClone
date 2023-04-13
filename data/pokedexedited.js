@@ -1,6 +1,6 @@
 exports.BattlePokedex = {
     weavolt: {
-        num: 60,
+        num: 1100,
         name: "Weavolt",
         types: ["Electric"],
         baseStats: {
@@ -21,8 +21,9 @@ exports.BattlePokedex = {
         evos: ["Outloat"],
         eggGroups: ["Field"],
     },
+    
         outloat: {
-        num: 61,
+        num: 1101,
         name: "Outloat",
         types: ["Electric"],
         baseStats: {
@@ -43,8 +44,31 @@ exports.BattlePokedex = {
         prevo: ["Weavolt"],
         eggGroups: ["Field"],
     },
+    
+        crevish: {
+        num: 1150,
+        name: "Crevish",
+        types: ["Water", "Grass"],
+        baseStats: {
+            hp: 80,
+            atk: 20,
+            def: 105,
+            spa: 125,
+            spd: 100,
+            spe: 80
+        },
+        abilities: {
+        "0":"Storm Drain","1":"Wonder Skin",
+        H:"Protean"
+    },
+        heightm: 0.7,
+        weightkg: 1.0,
+        color: "Pink",
+        eggGroups: ["Water 2", "Grass"],
+    },
+    
         malite: {
-        num: 150,
+        num: 1200,
         name: "Malite",
         types: ["Dark", "Steel"],
         gender: "N",
