@@ -67,6 +67,56 @@ exports.BattlePokedex = {
         eggGroups: ["Water 2", "Grass"],
     },
     
+        vashalla: {
+        num: 1199,
+        name: "Vashalla",
+        baseForme: "Manifest",
+        types: ["Fairy", "Steel"],
+        baseStats: {
+            hp: 140,
+            atk: 140,
+            def: 140,
+            spa: 20,
+            spd: 140,
+            spe: 20
+        },
+        abilities: {
+            "0": "Unseen"
+        },
+        heightm: 1.7,
+        weightkg: 150.5,
+        color: "White",
+        tags: ["Mythical"],
+        eggGroups: ["Undiscovered"],
+        otherFormes: ["Vashalla-True"],
+        formeOrder: ["Vashalla", "Vashalla-True"],
+    },
+    vashallatrue: {
+        num: 1199,
+        name: "Vashalla-True",
+        baseSpecies: "Vashalla",
+        forme: "True",
+        types: ["Fairy", "Flying"],
+        baseStats: {
+            hp: 140,
+            atk: 20,
+            def: 140,
+            spa: 20,
+            spd: 140,
+            spe: 140
+        },
+        abilities: {
+            "0": "Unseen"
+        },
+        heightm: 1.9,
+        weightkg: 0.6,
+        color: "White",
+        tags: ["Mythical"],
+        eggGroups: ["Undiscovered"],
+        requiredAbility: "Unseen",
+        battleOnly: "Vashalla",
+    },
+    
         malite: {
         num: 1200,
         name: "Malite",
