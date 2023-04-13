@@ -15988,6 +15988,25 @@ exports.BattleMovedex = {
         desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
         shortDesc: "Does damage equal to 1/2 target's current HP."
     },
+        ruinlash: {
+        num: 1500,
+        accuracy: 100,
+        basePower: 65,
+        category: "Physical",
+        name: "Ruin Lash",
+        pp: 10,
+        priority: 0,
+        flags: {
+            contact: 1,
+            protect: 1,
+            mirror: 1
+        },
+        secondary: null,
+        target: "normal",
+        type: "Dark",
+        desc: "This move is always a critical hit if the user is slower than the target.",
+        shortDesc: "Always results in a critical hit if the user is slower."
+    },
     sacredfire: {
         num: 221,
         accuracy: 95,
