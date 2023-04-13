@@ -61,6 +61,5 @@ exports.BattleLearnsets =
         trickroom: ["9M"],
         uturn: ["9M"],
         xscissor: ["9M"]
-    }
-},
+    }}
 };
