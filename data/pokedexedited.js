@@ -1,32 +1,50 @@
 exports.BattlePokedex = {
-    bulbasaur: {
-        num: 1,
-        name: "Bulbasaur",
-        types: ["Grass", "Poison"],
-        genderRatio: {
-            M: 0.875,
-            F: 0.125
-        },
+    weavolt: {
+        num: 60,
+        name: "Weavolt",
+        types: ["Electric"],
         baseStats: {
-            hp: 45,
-            atk: 49,
-            def: 49,
-            spa: 65,
-            spd: 65,
-            spe: 45
+            hp: 50,
+            atk: 70,
+            def: 40,
+            spa: 35,
+            spd: 40,
+            spe: 100
         },
         abilities: {
-            "0": "Overgrow",
-            H: "Chlorophyll"
+        "0":"Motor Drive","1":"Guts",
+        H:"Unnerve"
+    },
+        heightm: 0.5,
+        weightkg: 8.0,
+        color: "Yellow",
+        evos: ["Outloat"],
+        eggGroups: ["Field"],
+    },
+        outloat: {
+        num: 61,
+        name: "Outloat",
+        types: ["Electric"],
+        baseStats: {
+            hp: 65,
+            atk: 125,
+            def: 55,
+            spa: 45,
+            spd: 95,
+            spe: 130
         },
-        heightm: 0.7,
-        weightkg: 6.9,
-        color: "Green",
-        evos: ["Ivysaur"],
-        eggGroups: ["Monster", "Grass"],
+        abilities: {
+        "0":"Motor Drive","1":"Guts",
+        H:"Intimidate"
+    },
+        heightm: 1.8,
+        weightkg: 31.5,
+        color: "Yellow",
+        prevo: ["Outloat"],
+        eggGroups: ["Field"],
     },
         malite: {
-        num: 2000,
+        num: 150,
         name: "Malite",
         types: ["Dark", "Steel"],
         gender: "N",
