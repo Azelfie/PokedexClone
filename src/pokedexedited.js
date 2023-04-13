@@ -25,4 +25,27 @@ exports.BattlePokedex = {
         evos: ["Ivysaur"],
         eggGroups: ["Monster", "Grass"],
     },
+        malite: {
+        num: 2000,
+        name: "Malite",
+        types: ["Dark", "Steel"],
+        gender: "N",
+        baseStats: {
+            hp: 120,
+            atk: 140,
+            def: 198,
+            spa: 22,
+            spd: 178,
+            spe: 22
+        },
+        abilities: {
+            "0": "Belligerence"
+        },
+        heightm: 2.2,
+        weightkg: 250,
+        color: "Gray",
+        tags: ["Sub-Legendary"],
+        eggGroups: ["Undiscovered"],
+        tier: "OU"
+    },
 };
