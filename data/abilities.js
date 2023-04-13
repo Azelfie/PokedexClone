@@ -2217,7 +2217,7 @@ exports.BattleAbilities = {
         name: "Unseen",
         rating: 4,
         num: 700,
-        desc: "If this Pokemon is a Vashalla, it changes to True Forme before using an status move, and changes to Manifest Forme before using an attacking move.",
+        desc: "If this Pokemon is a Vashalla, it changes to True Forme before using a status move, and changes to Manifest Forme before using an attacking move.",
         shortDesc: "If Vashalla, changes Forme to True before status moves and Manifest before attacks."
     },
     unseenfist: {
