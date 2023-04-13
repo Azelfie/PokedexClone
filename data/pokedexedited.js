@@ -72,6 +72,7 @@ exports.BattlePokedex = {
         name: "Vashalla",
         baseForme: "Manifest",
         types: ["Fairy", "Steel"],
+        gender: "N",
         baseStats: {
             hp: 140,
             atk: 140,
@@ -97,6 +98,7 @@ exports.BattlePokedex = {
         baseSpecies: "Vashalla",
         forme: "True",
         types: ["Fairy", "Flying"],
+        gender: "N",
         baseStats: {
             hp: 140,
             atk: 20,
