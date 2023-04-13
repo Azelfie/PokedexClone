@@ -171,6 +171,15 @@ exports.BattleAbilities = {
         desc: "This Pokemon's highest stat is raised by 1 stage if it attacks and knocks out another Pokemon. Stat stage changes are not considered. If multiple stats are tied, Attack, Defense, Special Attack, Special Defense, and Speed are prioritized in that order.",
         shortDesc: "This Pokemon's highest stat is raised by 1 if it attacks and KOes another Pokemon."
     },
+        belligerence: {
+        isPermanent: true,
+        condition: {},
+        name: "Belligerence",
+        rating: -1,
+        num: 400,
+        desc: "This Pokemon cannot select any moves unless it is holding an Ether Shackle.",
+        shortDesc: "This Pokemon cannot select any moves unless it is holding an Ether Shackle."
+    },
     berserk: {
         name: "Berserk",
         rating: 2,
