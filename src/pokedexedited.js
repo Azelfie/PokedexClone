@@ -24,7 +24,5 @@ exports.BattlePokedex = {
         color: "Green",
         evos: ["Ivysaur"],
         eggGroups: ["Monster", "Grass"],
-        tier: "Illegal",
-        isNonstandard: "Past"
     },
 };
