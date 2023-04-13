@@ -40,7 +40,7 @@ exports.BattlePokedex = {
         heightm: 1.8,
         weightkg: 31.5,
         color: "Yellow",
-        prevo: ["Outloat"],
+        prevo: ["Weavolt"],
         eggGroups: ["Field"],
     },
         malite: {
