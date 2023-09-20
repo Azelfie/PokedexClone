@@ -1,4 +1,26 @@
 exports.BattlePokedex = {
+            Bismyst: {
+        num: 1099,
+        name: "Bismyst",
+        types: ["Rock", "Psychic"],
+        baseStats: {
+            hp: 85,
+            atk: 35,
+            def: 85,
+            spa: 125,
+            spd: 120,
+            spe: 50
+        },
+        abilities: {
+        "0":"Kaleidoscopal","1":"Sturdy",
+        H:"Bulletproof"
+    },
+        heightm: 1.9,
+        weightkg: 684.4,
+        color: "Brown",
+        eggGroups: ["Mineral"],
+    },
+    
     weavolt: {
         num: 1100,
         name: "Weavolt",
