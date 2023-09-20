@@ -1,5 +1,5 @@
 exports.BattlePokedex = {
-            Bismyst: {
+            bismyst: {
         num: 1099,
         name: "Bismyst",
         types: ["Rock", "Psychic"],
